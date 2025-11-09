@@ -7,3 +7,4 @@ grade INT
 );
 CREATE TABLE users (user_id INT PRIMARY KEY AUTO_INCREMENT, username VARCHAR(50), role VARCHAR(20));
 INSERT INTO users (username, role) VALUES ('admin1', 'Admin'), ('student1', 'Student');
+ALTER TABLE users ADD COLUMN email VARCHAR(100);
