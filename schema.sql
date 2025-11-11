@@ -1,7 +1,1 @@
-CREATE DATABASE school_db; 
-USE school_db; 
-CREATE TABLE students ( 
-id INT AUTO_INCREMENT PRIMARY KEY, 
-name VARCHAR(100), 
-grade INT 
-);
+CREATE TABLE teachers (id INT, name VARCHAR(100), subject VARCHAR(100));
