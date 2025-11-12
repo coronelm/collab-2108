@@ -9,3 +9,4 @@ Create enrollments table (enrollment_id INT, student_id INT, class_id INT);
 Insert into enrollments (enrollment_id, student_id, class_id) values (001, 123, 08);
 Alter Table enrollments add column school_year VARCHAR(50);
 Update enrollments SET school_year = '2024-2025' WHERE enrollment_id = '001';
+Alter Table enrollments add column school_year VARCHAR(50);
