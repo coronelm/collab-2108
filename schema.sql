@@ -4,3 +4,7 @@ CREATE TABLE attendance (
   date DATE NOT NULL,
   status VARCHAR(20)
 );
+INSERT INTO attendance (attendance_id, student_id, date, status) VALUES
+(001, 1, '2025-11-12', 'Present'),
+(102, 2, '2025-11-12', 'Absent'),
+(002, 3, '2025-11-12', 'Present')
