@@ -5,3 +5,4 @@ id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(100), 
 grade INT 
 );
+Create enrollments table (enrollment_id INT, student_id INT, class_id INT);
