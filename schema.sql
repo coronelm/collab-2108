@@ -1,7 +1,6 @@
-CREATE DATABASE school_db; 
-USE school_db; 
-CREATE TABLE students ( 
-id INT AUTO_INCREMENT PRIMARY KEY, 
-name VARCHAR(100), 
-grade INT 
+CREATE TABLE attendance (
+  attendance_id INT PRIMARY KEY,
+  student_id INT NOT NULL,
+  date DATE NOT NULL,
+  status VARCHAR(20)
 );
