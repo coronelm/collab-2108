@@ -7,3 +7,4 @@ grade INT
 );
 Create enrollments table (enrollment_id INT, student_id INT, class_id INT);
 Insert into enrollments (enrollment_id, student_id, class_id) values (001, 123, 08);
+Alter Table enrollments add column school_year VARCHAR(50);
